@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { Routes, RouterModule } from '@angular/router';
 import { GifsComponent } from './gifs/gifs.component';
 import { StickersComponent } from './stickers/stickers.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 const routes: Routes = [
@@ -26,6 +27,6 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ],
   exports: [ ],
-  declarations: [HomeComponent]
+  declarations: []
 })
 export class PagesRoutingModule { }

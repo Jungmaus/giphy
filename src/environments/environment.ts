@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  giphyAPIKey: "49Y6U0epj7JeiTLPRIwlEtC88c7oyObg"
+  giphyAPIKey: "49Y6U0epj7JeiTLPRIwlEtC88c7oyObg",
+  giphyAPIURL: "http://api.giphy.com/v1"
 };
 
 /*

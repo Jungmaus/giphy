@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-stickers',
+  selector: 'pages-stickers',
   templateUrl: './stickers.component.html',
   styleUrls: ['./stickers.component.css']
 })
