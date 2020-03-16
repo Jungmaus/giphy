@@ -5,6 +5,11 @@
 }
 
 
+.basic-container > a {
+    color: #ffffff;
+    font-size: 120%;
+}
+
 .basic-container > button {
     color: #ffffff;
     font-size: 120%;

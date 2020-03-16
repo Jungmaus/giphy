@@ -4,17 +4,17 @@
     <i class="material-icons logo">gif</i>
 
 
-    <button mat-button>Home</button>
+    <a [routerLink]="['/']" mat-button>Home</a>
 
-    <button mat-button>Gifs</button>    
+    <a [routerLink]="['/gifs']" mat-button>Gifs</a>    
 
-    <button mat-button>Stickers</button>
+    <a [routerLink]="['/stickers']" mat-button>Stickers</a>
 
 
     <button mat-button [matMenuTriggerFor]="aboutMenu">About Me</button>
     <mat-menu #aboutMenu="matMenu" xPosition="after">
-        <button mat-menu-item>Linkedln</button>
-        <button mat-menu-item>Github</button>
+        <a href="https://www.linkedin.com/in/sametsenturkk/" mat-menu-item>Linkedln</a>
+        <a href="https://github.com/Jungmaus/" mat-menu-item>Github</a>
     </mat-menu>
 
 
