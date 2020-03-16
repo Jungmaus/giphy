@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  giphyAPIKey: "49Y6U0epj7JeiTLPRIwlEtC88c7oyObg"
 };
 
 /*

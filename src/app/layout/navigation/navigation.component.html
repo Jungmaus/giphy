@@ -1,0 +1,21 @@
+<div class="mat-app-background basic-container">
+
+
+    <i class="material-icons logo">gif</i>
+
+
+    <button mat-button>Home</button>
+
+    <button mat-button>Gifs</button>    
+
+    <button mat-button>Stickers</button>
+
+
+    <button mat-button [matMenuTriggerFor]="aboutMenu">About Me</button>
+    <mat-menu #aboutMenu="matMenu" xPosition="after">
+        <button mat-menu-item>Linkedln</button>
+        <button mat-menu-item>Github</button>
+    </mat-menu>
+
+
+</div>
